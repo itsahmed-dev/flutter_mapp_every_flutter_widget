@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const StarterApp());
+void main() => runApp(const FlutterMappWidgetsApp());
 
-class StarterApp extends StatelessWidget {
-  const StarterApp({super.key});
+class FlutterMappWidgetsApp extends StatelessWidget {
+  const FlutterMappWidgetsApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Starter App',
+      title: 'every_flutter_widget App',
       home: HomePage(),
     );
   }
